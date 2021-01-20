@@ -1,0 +1,8 @@
+POST https://paailanews.herokuapp.com/api/media
+Content-Type : application/json
+      
+{
+    "name" : "john",
+    "image_url" :"httpplll",
+    "type" : "national"
+}

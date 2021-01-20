@@ -1,0 +1,28 @@
+.dashboard__root {
+    margin-left: 250px;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+
+  .dashboard__welcome > p {
+    margin-left: 40%;
+    margin-top: 40%;
+  }
+
+  /* .switch__container{
+    margin-left: 250px;
+
+  } */
+  
+  @media screen and (max-width: 720px) {
+    .dashboard__root {
+      margin-left: 100px;
+      margin-top: 10px;
+      padding: 0 10px;
+    }
+  }
+  
+  .dashboard__form {
+    margin-bottom: 10px;
+  }
+  

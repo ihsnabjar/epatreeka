@@ -1,0 +1,43 @@
+.Adding__container {
+  width: 99%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.Adding__container > h1 {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.form__container {
+  display: flex;
+  justify-content: space-between;
+}
+.form__container > input {
+  width: 48%;
+  height: 25px;
+}
+
+/* .Adding__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 45%;
+} */
+
+.Adding__button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 60px;
+  float: right;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  border-color: #a88734 #9c7e31 #846a29;
+}

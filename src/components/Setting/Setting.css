@@ -1,0 +1,40 @@
+.Setting__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.Setting__title {
+    border-bottom: 3px solid lightgray;
+}
+
+.setting__data{
+   
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 0 auto;
+    margin-top: 20px;
+   
+
+}
+
+.setting__form__data{
+    display: flex;
+    flex-direction: column;
+}
+
+.formC__container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.formC__container > input {
+    margin-bottom: 10px;
+    background-color: white;
+    height: 25px;
+    width: 500px;
+}
